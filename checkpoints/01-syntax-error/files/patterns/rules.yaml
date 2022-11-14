@@ -1,0 +1,8 @@
+rules:
+  - id: syntax_error
+    pattern-either:
+      - pattern: int total = first + second;
+      - pattern: int second = 9; int total = first + second;
+    message: Semgrep found a match
+    languages: [java]
+    severity: WARNING
