@@ -1,0 +1,7 @@
+rules:
+  - id: syntax_error
+    pattern-either:
+      - pattern: public static double threshold = 10000;
+    message: Semgrep found a match
+    languages: [java]
+    severity: WARNING
