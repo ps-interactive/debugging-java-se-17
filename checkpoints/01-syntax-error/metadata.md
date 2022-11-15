@@ -17,7 +17,7 @@ False (not checked)
 True (checked)
 ## Advanced Settins
 ### Timeout
-30
+60
 
 # Tasks
 ## Description
