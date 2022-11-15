@@ -10,18 +10,4 @@ class Approval {
     }
   }
 
-  public static void main(String[] args) {
-    double amount = 3000;
-    System.out.println(amount + " needs approval: ");
-    System.out.println(needsApproval(amount));
-
-    amount = 7500;
-    System.out.println(amount + " needs approval: ");
-    System.out.println(needsApproval(amount));
-
-    amount = 12500;
-    System.out.println(amount + " needs approval: ");
-    System.out.println(needsApproval(amount));
-  }
-
 }
