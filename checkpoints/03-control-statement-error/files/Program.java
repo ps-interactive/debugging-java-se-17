@@ -1,19 +1,15 @@
 class Program {
 
-  public static double threshold = 5000;
+  public static int MAX_WEIGHT = 150;
+  public static String ERROR_MESSAGE = "Overweight";
+  public static String OK_MESSAGE = "OK";
 
-  public static boolean needsApproval(double amount){
-    if(amount > threshold){
-      return true;
+  public static String safetyCheck(int actualWeight) {
+
+    if (actualWeight < MAX_WEIGHT) {
+      return ERROR_MESSAGE;
     } else {
-      return false;
+      return OK_MESSAGE;
     }
-  }
-
-  public static void main(String[] args) {
-    // Fix the syntax error
-    int first = 5;
-    int second = 9;
-    int total == first + second;
   }
 }
