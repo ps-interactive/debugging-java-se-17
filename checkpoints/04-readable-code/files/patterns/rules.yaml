@@ -1,0 +1,7 @@
+rules:
+  - id: syntax_error
+    pattern-either:
+      - pattern: if (actualWeight > MAX_WEIGHT) {
+    message: Semgrep found a match
+    languages: [java]
+    severity: WARNING
