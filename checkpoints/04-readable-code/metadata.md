@@ -1,23 +1,5 @@
 # Checks
-## Select template
 none
-## Description
-Readable Code
-## Command
-bash {{ test }}
-## Test Contents
-javac *.java 
-## Failed Pattern
-0 findings
-## Filename Override
-nt-test-create
-## Build first
-False (not checked)
-## Require Success 
-True (checked)
-## Advanced Settins
-### Timeout
-60
 
 # Tasks
 ## Description
@@ -28,7 +10,6 @@ Readable Code
 ## Code Editor Settings
 ### Hidden Files/Folders Globs
 **/.*
-**/patterns/
 
 # Settings
 ## GitHub Sync Settings

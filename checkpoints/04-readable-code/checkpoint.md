@@ -4,4 +4,4 @@ Improve the readability of the following function by utilizing newlines and inde
  
 Change the variables `a` and `c` to something more descriptive like `smallBoundary` and `largeBoundary`
 
-Compare your changes with the solution to see how you did.
+Compare your changes with the `Solution.java` file to see how you did.
