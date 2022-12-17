@@ -47,3 +47,10 @@ checkpoints/04-readable-code/files
 # Toolbox
 ## Files
 Pull Files from GitHub
+
+# Test Code
+public static void main(String[] args) {
+    System.out.println(checkBoundary(4));
+    System.out.println(checkBoundary(10));
+    System.out.println(checkBoundary(16));
+}
