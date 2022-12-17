@@ -1,8 +1,0 @@
-rules:
-  - id: readable_code
-    pattern: |
-      if ($E)
-        $S;
-    message: Semgrep found a match
-    languages: [java]
-    severity: WARNING
