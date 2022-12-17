@@ -6,7 +6,7 @@ Readable Code
 ## Command
 bash {{ test }}
 ## Test Contents
-javac *.java && semgrep -f ~/workspace/patterns/rules.yaml ~/workspace/Program.java
+javac *.java 
 ## Failed Pattern
 0 findings
 ## Filename Override
