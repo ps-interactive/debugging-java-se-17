@@ -12,6 +12,8 @@ public class Program {
     monthly.addItem(first);
     monthly.addItem(second);
     processItem(monthly.getItemList().get(1));
+    // note get(0) or get(1) will both work since there are 2 items in the list
+    // processItem(monthly.getItemList().get(0));
   }
 
   public static void processItem(Item item) {
