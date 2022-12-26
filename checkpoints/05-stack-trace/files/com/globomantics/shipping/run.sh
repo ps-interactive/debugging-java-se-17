@@ -1,4 +1,4 @@
 #!/bin/bash
-rm -f *.class
-javac *.java
-java -classpath ../../../ com.globomantics.shipping.Program
+rm -rf *.class
+javac com/globomantics/shipping/*.java
+java com.globomantics.shipping.Program
