@@ -1,5 +1,7 @@
 # Instructions
-Click the "Run" button to execute the program. Then identify the exception from the stack trace output to determine what to fix. Once you have fixed the error click run again to verify that the program executes without throwing an exception.
+Click the "Run" button to execute the program. Identify the error from the output to determine what to fix. 
+
+Once you have fixed the error click run again to verify that the program executes without any errors.
 
 # Tasks
 no tasks
