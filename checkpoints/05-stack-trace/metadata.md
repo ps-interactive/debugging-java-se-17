@@ -6,26 +6,7 @@ Item.java, Order.java, Program.java
 ## Description
 Stack Trace error
 ## Instructions
-Click the **Run** button to execute the program. Then read the stack trace output to determine which method to fix. Once you have fixed the error click run again to verify that the program executes without throwing an exception.
-# Interface
-## Tabs enabled
-Enable Terminal
-## Interface Settings
-Enable directory sidebar
-Allow command line access
-
-## Code Editor Settings
-File actions enabled
-### Hidden Files/Folders Globs
-**/.*
-**/patterns/
-**/checkpoint.md
-
-## Terminal Settings
-Clear Terminal
-
-## Task Settings
-Enable Run Checks
+Click the **Run** button to execute the program. Then read the stack trace output to determine which method to fix. Once you have fixed the error click **Run** again to verify that the program executes without throwing an exception.
 
 # Checks
 ## Select template
@@ -49,6 +30,8 @@ True (checked)
 60
 
 # Interface
+## Interface Layout
+Two Pane (Horizontal)
 ## Tabs Enabled
 Enable Terminal
 ## Interface Settings
@@ -60,8 +43,7 @@ Default
 File Actions Enabled
 ### Hidden Files/Folders Globs
 **/.*
-**/run.sh
-**/checkpoint.md
+**/patterns
 ## Terminal Settings
 Clear Terminal
 ## Task Settings

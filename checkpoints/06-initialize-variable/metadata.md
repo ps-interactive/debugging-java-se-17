@@ -1,28 +1,51 @@
-# Instructions
-Click the "Run" button to execute the program. Identify the error from the output to determine what to fix. 
-
-Once you have fixed the error click run again to verify that the program executes without any errors.
+# Initialize Variable
+Open files:
+Item.java, Program.java
 
 # Tasks
-no tasks
+## Description
+Initialize Variable
+## Instructions
+Click the **Run** button to execute the program. Identify the error from the output to determine what to fix. 
+
+Once you have fixed the error click **Run** again to verify that the program executes without any errors.
 
 # Checks
-no checks
+## Select template
+none
+## Description
+Initialize Variable
+## Command
+bash {{ test }}
+## Test Contents
+javac ~/workspace/com/globomantics/shipping/*.java && semgrep -f ~/workspace/patterns/rules.yaml ~/workspace/com/globomantics/shipping/Program.java
+## Failed Pattern
+0 findings
+## Filename Override
+nt-test-create
+## Build first
+False (not checked)
+## Require Success
+True (checked)
+## Advanced Settins
+### Timeout
+60
 
 # Interface
+## Interface Layout
+Two Pane (Horizontal)
 ## Tabs Enabled
 Enable Terminal
 ## Interface Settings
 Enable Directory Sidebar
 Allow Command line access
-# Interface Selection 
+# Interface Selection
 Default
 ## Code Editor Settings
 File Actions Enabled
 ### Hidden Files/Folders Globs
 **/.*
-**/run.sh
-**/checkpoint.md
+**/patterns
 ## Terminal Settings
 Clear Terminal
 ## Task Settings
@@ -45,3 +68,5 @@ checkpoints/06-initialize-variable/files
 # Toolbox
 ## Files
 Pull Files from GitHub
+
+

@@ -1,0 +1,7 @@
+rules:
+  - id: stack_trace_error
+    pattern-either:
+      - pattern: Item first = new Item("...", "...");
+    message: Semgrep found a match
+    languages: [java]
+    severity: WARNING
