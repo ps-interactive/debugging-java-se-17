@@ -35,7 +35,7 @@ Stack Trace error
 ## Command
 bash {{ test }}
 ## Test Contents
-javac *.java && semgrep -f ~/workspace/patterns/rules.yaml ~/workspace/com/globomantics/shipping/Program.java
+javac ~/workspace/com/globomantics/shipping/*.java && semgrep -f ~/workspace/patterns/rules.yaml ~/workspace/com/globomantics/shipping/Program.java
 ## Failed Pattern
 0 findings
 ## Filename Override
