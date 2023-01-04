@@ -23,7 +23,7 @@ True (checked)
 ## Description
 Control Statement error
 ## Instructions
-The following function should return the `ERROR_MESSAGE` if the `actualWeight` is greater than the `MAX_WEIGHT`. Otherwise it should return the `OK_MESSAGE`.
+The `safetyCheck` function should return the `ERROR_MESSAGE` if the `actualWeight` is greater than the `MAX_WEIGHT`. Otherwise, it should return the `OK_MESSAGE`. Fix the operator in the `safetyCheck` if statement so that it performs the check as described above. 
 # Interface
 ## Code Editor Settings
 ### Hidden Files/Folders Globs

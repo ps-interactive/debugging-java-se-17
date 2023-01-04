@@ -1,11 +1,52 @@
-# Instructions
-Click the "Run" button to execute the program. Then read the stack trace output to determine which method to fix. Once you have fixed the error click run again to verify that the program executes without throwing an exception.
+# Stack Traces
+Open files:
+Item.java, Order.java, Program.java
 
 # Tasks
-no tasks
+## Description
+Stack Trace error
+## Instructions
+Click the **Run** button to execute the program. Then read the stack trace output to determine which method to fix. Once you have fixed the error click run again to verify that the program executes without throwing an exception.
+# Interface
+## Tabs enabled
+Enable Terminal
+## Interface Settings
+Enable directory sidebar
+Allow command line access
+
+## Code Editor Settings
+File actions enabled
+### Hidden Files/Folders Globs
+**/.*
+**/patterns/
+**/checkpoint.md
+
+## Terminal Settings
+Clear Terminal
+
+## Task Settings
+Enable Run Checks
 
 # Checks
-no checks
+## Select template
+none
+## Description
+Stack Trace error
+## Command
+bash {{ test }}
+## Test Contents
+javac *.java && semgrep -f ~/workspace/patterns/rules.yaml ~/workspace/com/globomantics/shipping/Program.java
+## Failed Pattern
+0 findings
+## Filename Override
+nt-test-create
+## Build first
+False (not checked)
+## Require Success
+True (checked)
+## Advanced Settins
+### Timeout
+60
 
 # Interface
 ## Tabs Enabled

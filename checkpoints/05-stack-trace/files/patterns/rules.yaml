@@ -1,0 +1,8 @@
+rules:
+  - id: stack_trace_error
+    pattern-either:
+      - pattern: processItem(monthly.getItemList().get(0));
+      - pattern: processItem(monthly.getItemList().get(1));
+    message: Semgrep found a match
+    languages: [java]
+    severity: WARNING
